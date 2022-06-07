@@ -1,5 +1,5 @@
 const { Client, Intents, MessageEmbed, Modal } = require("discord.js");
-const token = require("./config.json").token;
+require('dotenv').config()
 const fetch = require("node-fetch");
 const client = new Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
@@ -87,4 +87,4 @@ client.on("messageCreate", async (msg) => {
 });
 
 
-client.login(token);
+client.login(process.env.BOT_TOKEN);
