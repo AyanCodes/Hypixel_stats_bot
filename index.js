@@ -30,7 +30,7 @@ client.on("messageCreate", async (msg) => {
       const uuidData =  await uuidResponse.json()
 
       const response = await fetch(
-        `https://api.hypixel.net/player?key=38bf93a7-0d96-4ee8-8d9b-95281dc3e28a&uuid=${uuidData.id}`
+        `https://api.hypixel.net/player?key={YOUR KEY HERE}uuid=${uuidData.id}`
       );
 
       if (!response.ok) return
