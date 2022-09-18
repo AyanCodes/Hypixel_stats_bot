@@ -19,7 +19,7 @@ client.on("messageCreate", async (msg) => {
     
   if (command === "bedwars") {
     if (!args.length) {
-			return msg.channel.send(`You didn't provide any username, ${msg.author}!`);
+	return msg.channel.send(`You didn't provide any username, ${msg.author}!`);
     }
 
     name = args
