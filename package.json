@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "discord.js": "^13.7.0",
+    "dotenv": "^16.0.1"
+  },
+  "name": "hypixel-api-bot",
+  "version": "1.0.0",
+  "description": "Discord bot using hypixel's api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "AyanPlayz",
+  "license": "ISC"
+}
